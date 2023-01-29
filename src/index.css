@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+li{
+    @apply p-4 font-bold
+}
+
+
+h1 {
+    @apply text-4xl font-bold
+  }
+
+  @font-face {
+  font-family: "Belmont";
+  src: url("../src/Webfonts/Belmont.woff2");
+}
+
+html{
+background: black;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+}
